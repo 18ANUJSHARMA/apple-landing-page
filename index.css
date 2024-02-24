@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 31px -2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    opacity: 0.991;
+    padding: 10px 20px;
+}
+
+
+.logo {
+    flex: 0.7; /* Takes up remaining space */
+    text-align: center; /* Aligns the content (logo) in the center */
+    
+    
+}
+.logo a {
+    color: red;
+    margin: 20px 10px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0 0 8px 0;
+}
+
+.logo img{
+    height: auto;
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    /* padding: 0;
+    margin: 0; */
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a {
+    color: red;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.content{
+    display: flex;
+    background-color: white;
+    text-align: start;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    
+}
+
+.data{
+    box-sizing: border-box;
+    flex: 1;
+    width: 5px;
+    height: auto;
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 70px;
+
+}
+
+.data p{
+    font-weight: 500;
+    font-size: 5vh;
+    color: grey;
+}
+
+.second-line {
+    display: block;
+    margin-top: 5px; /* Adjust as needed */
+}
+
+.data h1{
+    font-weight: bolder;
+    font-size: 10vh;
+}
+
+.img img{
+    
+        height: auto;
+        width: 400px;
+        align-items: center;
+   
+}
+
+.btn{
+    text-align: center;
+    margin: auto;
+    height: 45px;
+    width: 100px;
+    background-color: red;
+    border-color: red;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 31px -2px;
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.about-us{
+    background-color: rgb(216, 207, 207);
+    align-items: center;
+}
+
+
+
+.about-us h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.information{
+    box-sizing: border-box;
+    width: auto;
+    margin: 5rem 5rem 5rem 5rem;
+    height: auto;
+    border-width: 20px;
+    border-color: black;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 50px;
+    border: 10px solid red;
+    background-color: rgb(236, 127, 127);
+}
+
+.information img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+.varieties h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+.varieties .inform{
+    box-sizing: border-box;
+    width: auto;
+    margin: 5rem 5rem 5rem 5rem;
+    height: auto;
+    border-width: 20px;
+    border-color: black;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 50px;
+    border: 10px solid red;
+    background-color: rgb(148, 3, 100);
+}
+
+
+.inform {
+    box-sizing: border-box;
+    width: auto;
+    margin: 5rem 5rem 5rem 5rem;
+    border-width: 20px;
+    border-color: black;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 50px;
+    border: 10px solid red;
+    background-color: rgb(236, 127, 127);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 18%; /* Adjust as needed */
+    height: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.795);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
